@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     title: 'Comienza Aquí: Entendiendo la DE',
                     // Video: "Erectile Dysfunction | Causes and Treatment" by Centro Médico ABC
                     // Source: Spanish Medical Channel
-                    youtubeId: 'dhXlNfAgdEE',
+                    youtubeId: 'zvT5j6WxGF8',
                     description: 'Una visión médica y holística sobre las verdaderas causas detrás de los problemas de erección. No estás solo en esto.',
                     type: 'video'
                 }
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     id: 'l2',
                     title: 'Anatomía y Ejercicios Kegel',
                     // Video: "Fortalecer el suelo pélvico masculino" (HARTMANN España)
-                    youtubeId: 'Xk_B7y8eE3Q',
+                    youtubeId: 'cumrZ97aCZ0',
                     description: 'Clase magistral sobre cómo fortalecer el suelo pélvico para mejorar la potencia.',
                     type: 'video'
                 },
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     id: 'l3',
                     title: 'Nutrición Potenciadora',
                     // Video: "Potencia tu Erección de forma natural" (Nitric Oxide topic)
-                    youtubeId: 'V5H6sC60OU',
+                    youtubeId: 'CgnEbNJ61PA',
                     description: 'Descubre los alimentos que aumentan el Óxido Nítrico naturalmente.',
                     type: 'video'
                 }
