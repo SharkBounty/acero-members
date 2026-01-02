@@ -1,2 +1,2 @@
 Arquivo de teste para verificar push no GitHub.
-Se este arquivo aparecer lá, o piloto funcionou.
+Tentativa 2 - Forçando nova autenticação.
