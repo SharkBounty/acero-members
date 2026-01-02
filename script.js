@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     title: 'Comienza Aquí: Entendiendo la DE',
                     // Video: "Erectile Dysfunction | Causes and Treatment" by Centro Médico ABC
                     // Source: Spanish Medical Channel
-                    youtubeId: '2Gw2J0g0y_M',
+                    youtubeId: 'dhXlNfAgdEE',
                     description: 'Una visión médica y holística sobre las verdaderas causas detrás de los problemas de erección. No estás solo en esto.',
                     type: 'video'
                 }
