@@ -1,0 +1,5 @@
+# Local server scripts
+start_server.bat
+run_site.ps1
+.DS_Store
+Thumbs.db

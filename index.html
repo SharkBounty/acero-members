@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolo Acero - Área de Miembros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Phosphor Icons for modern UI icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <i class="ph-fill ph-shield-check logo-icon"></i>
+                <h1 class="logo">Protocolo <span class="highlight">Acero</span></h1>
+            </div>
+
+            <div class="user-profile-mini">
+                <div class="avatar-circle">M</div>
+                <div class="user-info">
+                    <span class="user-name">Miembro VIP</span>
+                    <span class="user-status">Activo</span>
+                </div>
+            </div>
+
+            <nav class="course-nav">
+                <div class="nav-section-title">Módulos</div>
+                <ul id="module-list" class="nav-list">
+                    <!-- Populated by JS -->
+                </ul>
+
+                <div class="nav-section-title">Extras</div>
+                <ul class="nav-list">
+                    <li class="nav-item" data-type="special" data-id="bicarbonato">
+                        <a href="#" class="nav-link">
+                            <i class="ph ph-flask"></i>
+                            <span>Truco del Bicarbonato</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <button class="btn-logout">
+                    <i class="ph ph-sign-out"></i> Cerrar Sesión
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-bar">
+                <button class="mobile-menu-toggle">
+                    <i class="ph ph-list"></i>
+                </button>
+                <div class="breadcrumbs">
+                    <span id="breadcrumb-module">Inicio</span>
+                    <i class="ph ph-caret-right"></i>
+                    <span id="breadcrumb-lesson" class="current">Bienvenida</span>
+                </div>
+            </header>
+
+            <div id="content-display" class="content-area">
+                <!-- Dynamic Content Injection -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Templates for dynamic content -->
+    <template id="video-template">
+        <div class="video-lesson-view">
+            <div class="video-wrapper">
+                <div class="video-placeholder-professional">
+                    <div class="play-circle">
+                        <i class="ph-fill ph-play"></i>
+                    </div>
+                    <p class="video-msg">Haga clic para cargar el video</p>
+                </div>
+            </div>
+            <div class="lesson-details">
+                <h2 class="lesson-title"></h2>
+                <p class="lesson-description"></p>
+                <div class="action-buttons">
+                    <button class="btn-primary"><i class="ph ph-check-circle"></i> Marcar como Visto</button>
+                    <button class="btn-secondary"><i class="ph ph-download-simple"></i> Recursos</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="article-template">
+        <div class="article-view">
+            <div class="article-header">
+                <h2 class="article-title"></h2>
+                <div class="article-meta">
+                    <span class="read-time"><i class="ph ph-clock"></i> 5 min lectura</span>
+                    <span class="author"><i class="ph ph-user"></i> Equipo Médico Protocolo Acero</span>
+                </div>
+            </div>
+            <div class="article-body">
+                <!-- Content -->
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
