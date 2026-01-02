@@ -9,9 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     id: 'l1',
                     title: 'Comienza Aquí: Entendiendo la DE',
-                    // Video: "Erectile Dysfunction: Causes..." by Dr. Ashish Sabharwal (USER PROVIDED)
-                    youtubeId: 'beWzD8UjIPY',
-                    description: 'Una visión médica sobre las verdaderas causas y soluciones. Explicación directa sobre prevención y tratamiento.',
+                    // Video: "Erectile Dysfunction | Causes and Treatment" by Centro Médico ABC
+                    // Source: Spanish Medical Channel
+                    youtubeId: '2Gw2J0g0y_M',
+                    description: 'Una visión médica y holística sobre las verdaderas causas detrás de los problemas de erección. No estás solo en esto.',
                     type: 'video'
                 }
             ]
@@ -22,18 +23,18 @@ document.addEventListener('DOMContentLoaded', () => {
             lessons: [
                 {
                     id: 'l2',
-                    title: 'Minerales y Potencia (Dr. La Rosa)',
-                    // Video: "Este mineral puede AUMENTAR tu POTENCIA SEXUAL" (Dr. La Rosa)
-                    youtubeId: 'd_LYBxgo5g4',
-                    description: 'El Dr. La Rosa explica cómo el Zinc y otros minerales son vitales para la testosterona.',
+                    title: 'Anatomía y Ejercicios Kegel',
+                    // Video: "Fortalecer el suelo pélvico masculino" (HARTMANN España)
+                    youtubeId: 'Xk_B7y8eE3Q',
+                    description: 'Clase magistral sobre cómo fortalecer el suelo pélvico para mejorar la potencia.',
                     type: 'video'
                 },
                 {
                     id: 'l3',
-                    title: 'Ejercicios de Kegel',
-                    // Video: "Kegel exercises for men" (Tengo un amigo que...) - Verified popular
-                    youtubeId: 'A00T_O-QxZ8',
-                    description: 'Aprende la técnica correcta para fortalecer el suelo pélvico paso a paso.',
+                    title: 'Nutrición Potenciadora',
+                    // Video: "Potencia tu Erección de forma natural" (Nitric Oxide topic)
+                    youtubeId: 'V5H6sC60OU',
+                    description: 'Descubre los alimentos que aumentan el Óxido Nítrico naturalmente.',
                     type: 'video'
                 }
             ]
@@ -44,18 +45,18 @@ document.addEventListener('DOMContentLoaded', () => {
             lessons: [
                 {
                     id: 'l4',
-                    title: 'Rutina Práctica',
+                    title: 'Rutina Diaria de Kegel',
                     // Video: "EJERCICIOS DE KEGEL PARA HOMBRES" (WonderFit Spain)
                     youtubeId: 'VnJvI623FfE',
-                    description: 'Rutina guiada para realizar en casa.',
+                    description: 'Una rutina práctica y guiada para realizar todos los días.',
                     type: 'video'
                 },
                 {
                     id: 'l5',
-                    title: 'Entendiendo el Suelo Pélvico',
-                    // Video: "Suelo pélvico en el hombre" (Fisioterapia-online)
-                    youtubeId: 'y-3K-lV50t8',
-                    description: 'La importancia de la musculatura profunda para la salud masculina.',
+                    title: 'Tratamientos Médicos',
+                    // Video: "Tratamiento de la disfunción eréctil" (PortalCLÍNIC)
+                    youtubeId: 'sP6e-82WdTM',
+                    description: 'Opciones de tratamientos médicos explicadas por expertos.',
                     type: 'video'
                 }
             ]
