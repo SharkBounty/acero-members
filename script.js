@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     id: 'l4',
                     title: 'Rutina Diaria de Kegel',
                     // Video: "EJERCICIOS DE KEGEL PARA HOMBRES" (WonderFit Spain)
-                    youtubeId: 'VnJvI623FfE',
+                    youtubeId: 'I10hxTFCLOo',
                     description: 'Una rutina práctica y guiada para realizar todos los días.',
                     type: 'video'
                 },
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     id: 'l5',
                     title: 'Tratamientos Médicos',
                     // Video: "Tratamiento de la disfunción eréctil" (PortalCLÍNIC)
-                    youtubeId: 'sP6e-82WdTM',
+                    youtubeId: '1Q93L9sLdpQ',
                     description: 'Opciones de tratamientos médicos explicadas por expertos.',
                     type: 'video'
                 }
